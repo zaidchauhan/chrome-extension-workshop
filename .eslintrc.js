@@ -26,5 +26,6 @@ module.exports = {
     "manifest.json"
   ],
   rules: {
+    "class-methods-use-this": "off"
   },
 };
