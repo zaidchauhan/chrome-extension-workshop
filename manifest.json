@@ -1,0 +1,20 @@
+{
+  "name": "IBAN-Generator",
+  "version": "0.0.1",
+  "manifest_version": 2, 
+  "description": "Generate random IBAN",
+  "icons": {
+    "16": "static-content/iban-blue.png",
+    "48": "static-content/iban-blue.png"
+  },
+  "browser_action": {
+    "default_title": "Click to generate new IBAN"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "notifications"
+  ]
+}
